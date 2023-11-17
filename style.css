@@ -1,0 +1,293 @@
+body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EFEEE9;
+            font-size: 18px;display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        nav{
+            background-color: #FFC4BC;
+            padding: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo{
+            width: 60px;
+            height: auto;
+        }
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            font-size: 20px;
+        }
+
+        li{
+            margin-right: 20px;
+        }
+
+        a{
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .nav:hover{
+            color: #EFEEE9;
+        }
+
+        .active:hover{
+            color: #EFEEE9;
+        }
+
+        .active{
+          color: #A43845;
+        }
+
+        a:hover{
+          color: #EFEEE9;
+        }
+
+        section{
+          margin-left: 50px;
+          margin-right: 50px;
+        }
+
+        h1{
+          font-size: 70px;
+          text-align: center;
+        }
+
+        h2{
+          font-size: 30px;
+          margin-bottom: 0px;
+        }
+
+        .bdh2{
+          font-size: 50px;
+          text-align: center;
+          margin-top: 0px;
+          margin-bottom: 22px;
+        }
+
+        #contacth1{
+          margin-bottom: 7px
+        }
+
+        #contacth2{
+          text-align: center;
+          margin-top: 0px;
+          padding-top: 0px;
+          margin-bottom: 50px;
+        }
+
+        #me{
+          width: 400px;
+          height: auto;
+          float: left;
+          margin-right: 30px;
+          margin-bottom: 30px;
+        }
+
+        #home{
+          border-collapse: collapse;
+          margin: 20px;
+          font-size: 18px;
+          width: auto;
+        }
+
+        .hometd, .hometr{
+          border: none;
+          padding-right: 20px;
+          padding-top: 5px;
+          padding-bottom: 0px;
+          text-align: left;
+        }
+
+        .hometh{
+          font-weight: bold;
+          font-size: 30px;
+          text-align: center;
+          padding-bottom: 10px;
+        }
+
+        #top{
+          font-weight: bold;
+          border-bottom-style: solid;
+          border-bottom-color: #692830;
+          font-size: 20px;
+        }
+
+        #school{
+          font-weight: bold;
+          padding-top: 10px;
+        }
+
+        .outlink:hover{
+          color: #822F39;
+        }
+
+        #portifolio{
+          border-collapse: collapse;
+          text-align: center;
+          align-items: baseline;
+        }
+
+        .portpic{
+          height: 60px;
+        }
+
+        #gc{
+          height: 65px;
+        }
+
+        #vt{
+          height: 55px;
+        }
+
+        footer {
+            background-color: #FFC4BC;
+            padding: 20px;
+            text-align: center;
+            color: #000000;
+        }
+
+        .footer{
+          height: 25px;
+          width: auto;
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #A43845;
+              min-width: 160px;
+              z-index: 1;
+            }
+
+            .dropdown-content a {
+              float: none;
+              color: #EFEEE9;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            }
+
+            .dropdown-content a:hover {
+              background-color: #FFD6D1;
+              color: #692830;
+            }
+
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+
+            button{
+              background-color: inherit;
+              border-style: none;
+              font-size: 20px;
+              margin-right: 20px;
+            }
+
+        table{
+          margin: 20px auto;
+          text-align: center;
+          align-items: center;
+        }
+
+        th{
+          font-size: 30px;
+          width: 340px;
+        }
+
+        td{
+          padding: 20px;
+          width: 340px;
+        }
+
+        #mail{
+          height: 70px;
+        }
+
+        #phone{
+          height: 100px;
+        }
+
+        #socials{
+          height: 100px;
+        }
+
+        .socials{
+          height: 50px;
+          width: auto;
+        }
+
+        .vt{
+          height: 500px;
+          margin-left: 22px;
+          margin-bottom: 22px;
+          display: inline-block;
+        }
+
+        .vt img {
+          display: block;
+        }
+
+        #vtbody{
+          text-align: center;
+        }
+
+        .bd{
+          width: 700px;
+          margin-left: 22px;
+          margin-bottom: 22px;
+          display: inline-block;
+        }
+
+        .bd2{
+          height: 550px;
+          margin-left: 22px;
+          margin-bottom: 22px;
+          display: inline-block;
+        }
+
+        .bd2 img {
+          display: block;
+        }
+
+        .bd img {
+          display: block;
+        }
+
+        #bdbody{
+          text-align: center;
+        }
+
+        .gc{
+          height: 500px;
+          margin-left: 22px;
+          margin-bottom: 22px;
+          display: inline-block;
+        }
+
+        .gc img {
+          display: block;
+        }
+
+        #gcbody{
+          text-align: center;
+        }
